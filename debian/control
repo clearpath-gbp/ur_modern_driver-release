@@ -1,0 +1,12 @@
+Source: ros-indigo-ur-modern-driver
+Section: misc
+Priority: extra
+Maintainer: Thomas Timm Andersen <thomas.timm.dk@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-control-msgs, ros-indigo-controller-manager, ros-indigo-geometry-msgs, ros-indigo-hardware-interface, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-trajectory-msgs, ros-indigo-ur-msgs
+Homepage: http://wiki.ros.org/ur_modern_driver
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ur-modern-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-control-msgs, ros-indigo-controller-manager, ros-indigo-geometry-msgs, ros-indigo-hardware-interface, ros-indigo-ros-controllers, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-trajectory-msgs, ros-indigo-ur-description, ros-indigo-ur-msgs
+Description: The new driver for the UR3/UR5/UR10 robot arms from universal robots
